@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cl/MPRPC/src/include/mprpcapplication.h
+mrpcconfig.h
+/home/cl/MPRPC/src/include/mrpcconfig.h
+
+/home/cl/MPRPC/src/include/mrpcconfig.h
+string
+-
+unordered_map
+-
+
+/home/cl/MPRPC/src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
+-
+
+/home/cl/MPRPC/src/zookeeperutil.cc
+./include/zookeeperutil.h
+/home/cl/MPRPC/src/include/zookeeperutil.h
+./include/mprpcapplication.h
+/home/cl/MPRPC/src/include/mprpcapplication.h
+semaphore.h
+-
+iostream
+-
+
